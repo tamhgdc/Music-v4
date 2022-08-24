@@ -1,0 +1,19 @@
+.playlist{
+    margin-left: var(--margin--menubar);
+    .playlist__title{
+        font-size: 1.2em;
+        color: #808080;
+    }
+    .items{
+        margin-top: 20px;
+        color:Black;
+        font-weight: 500;
+        font-size: 1.2em;
+    }
+    .item{
+        margin-top: 10px;
+    }
+    .fa-brands{
+        margin-left: 10px;
+    }
+}

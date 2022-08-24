@@ -1,0 +1,27 @@
+.menubar__listitems{
+   margin-left: var(--margin--menubar);
+
+   .menubar__item{
+       margin-top:10px;
+   }
+   .Link__menu{
+        color:Black;
+        text-decoration: none;
+    }
+    .fa-solid{
+        width: 10px;
+        opacity: 0.5;
+    }
+    .item{
+        margin-left: var(--margin--menubar);
+        font-weight: 500;
+        font-size: 1.2em;
+    }
+    .Link__menu:hover,.item:hover{
+        color:#ec707e;
+    }
+    .active .fa-solid,.Link__menu.active{
+        color:#ec707e ;
+        opacity: 1 !important;
+    }
+}

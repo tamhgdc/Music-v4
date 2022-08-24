@@ -1,0 +1,20 @@
+
+.slidebar{
+    position: fixed;
+    width: 15%;
+    height: 100%;
+    background-color: white;
+    left:0;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    --margin--top:50px;
+    z-index: 10;
+}
+.slidebar__menubar{
+    margin-top:var(--margin--top);
+}
+.slidebar__mymusic{
+    margin-top:calc(var(--margin--top)/2);
+}
+.slidebar__playlist{
+    margin-top:calc(var(--margin--top)/2);
+}

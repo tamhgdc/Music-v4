@@ -1,0 +1,27 @@
+.menubar__music{
+    margin-left:var(--margin--menubar);
+    .item__title{
+        font-size: 1.2em;
+        color: #808080;
+    }
+    .item__mymusic{
+        margin-top:20px;
+
+    }
+    .item{
+        margin-top: 10px;
+    }
+    .fa-regular{
+        width: 10px;
+        opacity: 0.5;
+    }
+
+    .music{
+        margin-left: var(--margin--menubar);
+        font-weight: 500;
+        font-size: 1.2em;
+    }
+    .item:hover{
+        color:#ec707e;
+    }
+}
